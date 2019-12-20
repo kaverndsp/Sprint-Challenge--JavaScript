@@ -1,6 +1,6 @@
 # Sprint Challenge: JavaScript Fundamentals
 
-This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a survey of problems. This Sprint explored JavaScript Fundamentals. During this Sprint, you studied variables, functions, object literals, arrays, this keyword, prototypes, and class syntax. In your challenge this week, you will demonstrate proficiency by completing a survey of JavaScript problems.
+This challenge allows you to practice the concepts and techniques learned over the past gitweek and apply them in a survey of problems. This Sprint explored JavaScript Fundamentals. During this Sprint, you studied variables, functions, object literals, arrays, this keyword, prototypes, and class syntax. In your challenge this week, you will demonstrate proficiency by completing a survey of JavaScript problems.
 
 ## Instructions
 
@@ -30,13 +30,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+    .forEach(); allows you to mutate the array, .map(); only returns a new array of the same size also while in turn passing each element back to the callback.
+
 2. What is the difference between a function and a method?
+
+    A function is an object. A method is a function on that object. 
 
 3. What is closure?
 
+    A function that has access to an outer functions scope because of its closure. A function with a variable that has a nested function means the nested function can use that variable from the outer scope. 
+
 4. Describe the four rules of the 'this' keyword.
 
+    Window/Global Object Binding: When in the global scope the value of "this" is the window.
+    Implicit Binding: Whenever a preceding dot calls a function, the object to the left of the dot is what "this" is.
+    New binding: When using a constructor function, "this" refers to the specific instance of the object that is created and returned by the construtor function.
+    Explicit binding: The call or apply method is explicity defined.
+
 5. Why do we need super() in an extended class?
+
+    Its the function that inheriates the properties from it's parent.
 
 ## Project Set up
 

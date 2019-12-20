@@ -150,9 +150,7 @@ console.log(displayNames);
 The zoos need a list of all their animal's names (animal_name only) converted to lower case. Using map, create a new array of strings named lowCaseAnimalNames, each string following this pattern: "jackal, asiatic". Log the resut.
 
 */
-
 const lowCaseAnimalNames = [];
-
 zooAnimals.map(function (currentValue) {
   lowCaseAnimalNames.push(`${currentValue.animal_name.toLowerCase()}`);
 });
@@ -164,7 +162,6 @@ console.log(lowCaseAnimalNames);
 The zoos are concerned about animals with a lower population count. Using filter, create a new array of objects called lowPopulationAnimals which contains only the animals with a population less than 5.
 
 */
-
 
 const lowPopulationAnimals = zooAnimals.filter(function (currentValue) {
   return currentValue.population < 5;
